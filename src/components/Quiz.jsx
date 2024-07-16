@@ -10,7 +10,7 @@ const Quiz = () => {
   };
 
   return (
-    <main>
+    <div id="quiz">
       <div id="question">
         <h2>{QUESTIONS[activeQuestionIndex].text}</h2>
       </div>
@@ -21,7 +21,7 @@ const Quiz = () => {
           </li>
         ))}
       </ul>
-    </main>
+    </div>
   );
 };
 
