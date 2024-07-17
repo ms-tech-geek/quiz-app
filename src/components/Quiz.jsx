@@ -63,6 +63,7 @@ export default function Quiz() {
           selectedAnswer={userAnswers[userAnswers.length - 1]}
           answerState={answerState}
           onSelect={handleSelectAnswer}
+          key={activeQuestionIndex}
         />
       </div>
     </div>
