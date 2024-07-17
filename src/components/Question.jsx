@@ -28,9 +28,10 @@ const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
   };
 
   let answerState = '';
-  console.log(`selectedAnswer`, answer.selectedAnswer);
-  if (answer.selectedAnswer) {
+  if (answer.selectedAnswer && answer.isCorrect !== null) {
     answerState = answer.isCorrect ? 'correct' : 'wrong';
+  } else if (answer.isSelected) {
+    answerState = 'selected';
   }
   return (
     <div id="question">
