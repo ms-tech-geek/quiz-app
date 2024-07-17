@@ -17,7 +17,7 @@ const QuestionTimer = ({ timeout, onTimeout }) => {
     }, 100);
 
     return () => clearInterval(interval);
-  }, [remainingTime]);
+  }, []);
 
   return <progress id="question-time" value={remainingTime} max={timeout} />;
 };
