@@ -22,13 +22,13 @@ const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
   const handleSelectAnswer = (answer) => {
     setAnswer({
       selectedAnswer: answer,
-      isCorrect: QUESTIONS[questionIndex].answers[0] === answer,
+      isCorrect: null,
     });
 
     setTimeout(() => {
       setAnswer({
         selectedAnswer: answer,
-        isCorrect: true,
+        isCorrect: QUESTIONS[questionIndex].answers[0] === answer,
       });
 
       setTimeout(() => {
@@ -38,10 +38,11 @@ const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
   };
 
   let answerState = '';
+
   if (answer.selectedAnswer && answer.isCorrect !== null) {
     answerState = answer.isCorrect ? 'correct' : 'wrong';
-  } else if (answer.isSelected) {
-    answerState = 'selected';
+  } else if (answer.selectedAnswer) {
+    answerState = 'answered';
   }
   return (
     <div id="question">
