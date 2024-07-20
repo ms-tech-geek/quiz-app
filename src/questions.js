@@ -15,6 +15,6 @@ const combinedQuestions = [
     ...question,
     category: 'guess the dialogue',
   })),
-];
+].sort((a, b) => Math.random() - 0.5);
 
 export default combinedQuestions;
