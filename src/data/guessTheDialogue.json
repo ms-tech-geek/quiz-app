@@ -1,0 +1,12 @@
+[
+  {
+    "id": "d1",
+    "text": "'Mogambo khush hua'?",
+    "answers": ["Mr. India", "Don", "Sholay", "Deewar"]
+  },
+  {
+    "id": "d2",
+    "text": "'Kitne aadmi the?'?",
+    "answers": ["Sholay", "Don", "Deewar", "Zanjeer"]
+  }
+]

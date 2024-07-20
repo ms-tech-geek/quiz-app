@@ -1,0 +1,17 @@
+[
+  {
+    "id": "s1",
+    "text": "Which song is this line from: 'Pyar hota hai deewana sanam'?",
+    "answers": [
+      "Kuch Kuch Hota Hai",
+      "Kal Ho Naa Ho",
+      "Kabhi Khushi Kabhie Gham",
+      "Dilwale Dulhania Le Jayenge"
+    ]
+  },
+  {
+    "id": "s2",
+    "text": "Who sang the song 'Chaiyya Chaiyya'?",
+    "answers": ["Sukhwinder Singh", "Sonu Nigam", "Arijit Singh", "Kumar Sanu"]
+  }
+]
