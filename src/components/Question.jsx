@@ -1,6 +1,6 @@
 import QuestionTimer from './QuestionTimer';
 import Answers from './Answers';
-import QUESTIONS from '../questions.js';
+import combinedQuestions from '../questions.js';
 import { useState } from 'react';
 
 const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
@@ -28,7 +28,7 @@ const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
     setTimeout(() => {
       setAnswer({
         selectedAnswer: answer,
-        isCorrect: QUESTIONS[questionIndex].answers[0] === answer,
+        isCorrect: combinedQuestions[questionIndex].answers[0] === answer,
       });
 
       setTimeout(() => {
@@ -52,9 +52,9 @@ const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
         onTimeout={answer.selectedAnswer === '' ? onSkipAnswer : null}
         mode={answerState}
       />
-      <h2>{QUESTIONS[questionIndex].text}</h2>
+      <h2>{combinedQuestions[questionIndex].text}</h2>
       <Answers
-        answers={QUESTIONS[questionIndex].answers}
+        answers={combinedQuestions[questionIndex].answers}
         selectedAnswer={answer.selectedAnswer}
         answerState={answerState}
         onSelect={handleSelectAnswer}
