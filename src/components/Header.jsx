@@ -15,7 +15,9 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <img src={appLogo} alt="Logo" />{' '}
+          <Link to="/">
+            <img src={appLogo} alt="Logo" />{' '}
+          </Link>
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
           <div className={isOpen ? 'menu-icon-open' : 'menu-icon-closed'}>
