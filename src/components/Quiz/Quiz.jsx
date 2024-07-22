@@ -1,13 +1,44 @@
-import { useState, useCallback } from 'react';
-import combinedQuestions from '../../questions.js';
+import { useState, useCallback, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import {
+  movieQuestions,
+  songQuestions,
+  dialogueQuestions,
+} from '../../questions.js';
 import Question from './Question.jsx';
 import Summary from '../Result/Summary.jsx';
 
 export default function Quiz() {
   const [userAnswers, setUserAnswers] = useState([]);
+  const [questions, setQuestions] = useState([]);
+  const location = useLocation();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const category = params.get('category');
+    console.log(`selectedCategory`, category);
+    let selectedQuestions = [];
+    switch (category) {
+      case 'movie':
+        selectedQuestions = movieQuestions;
+        break;
+      case 'song':
+        selectedQuestions = songQuestions;
+        break;
+      case 'dialogue':
+        selectedQuestions = dialogueQuestions;
+        break;
+      default:
+        selectedQuestions = [];
+        break;
+    }
+    console.log(`selectedQuestions`, selectedQuestions);
+
+    setQuestions(selectedQuestions);
+  }, [location.search]);
 
   const activeQuestionIndex = userAnswers.length;
-  const quizIsComplete = activeQuestionIndex === combinedQuestions.length;
+  const quizIsComplete = activeQuestionIndex === questions.length;
 
   const handleSelectAnswer = useCallback(function handleSelectAnswer(
     selectedAnswer
@@ -24,7 +55,7 @@ export default function Quiz() {
   );
 
   if (quizIsComplete) {
-    return <Summary userAnswers={userAnswers} />;
+    return <Summary selectedQuestions={questions} userAnswers={userAnswers} />;
   }
 
   return (
@@ -32,6 +63,7 @@ export default function Quiz() {
       <Question
         key={activeQuestionIndex}
         questionIndex={activeQuestionIndex}
+        selectedQuestions={questions}
         onSelectAnswer={handleSelectAnswer}
         onSkipAnswer={handleSkipAnswer}
       />

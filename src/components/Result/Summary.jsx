@@ -1,10 +1,9 @@
 import quizCompleteImg from '../../assets/quiz-complete.png';
-import combinedQuestions from '../../questions.js';
 
-export default function Summary({ userAnswers }) {
+export default function Summary({ selectedQuestions, userAnswers }) {
   const skippedAnswers = userAnswers.filter((answer) => answer === null);
   const correctAnswers = userAnswers.filter(
-    (answer, index) => answer === combinedQuestions[index].answers[0]
+    (answer, index) => answer === selectedQuestions[index].answers[0]
   );
 
   const skippedAnswersShare = Math.round(
@@ -39,7 +38,7 @@ export default function Summary({ userAnswers }) {
 
           if (answer === null) {
             cssClass += ' skipped';
-          } else if (answer === combinedQuestions[index].answers[0]) {
+          } else if (answer === selectedQuestions[index].answers[0]) {
             cssClass += ' correct';
           } else {
             cssClass += ' wrong';
@@ -48,7 +47,7 @@ export default function Summary({ userAnswers }) {
           return (
             <li key={index}>
               <h3>{index + 1}</h3>
-              <p className="question">{combinedQuestions[index].text}</p>
+              <p className="question">{selectedQuestions[index].text}</p>
               <p className={cssClass}>{answer ?? 'Skipped'}</p>
             </li>
           );

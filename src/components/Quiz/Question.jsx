@@ -1,8 +1,7 @@
 import Answers from './Answers';
-import combinedQuestions from '../../questions.js';
 import { useState } from 'react';
 
-const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
+const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
   const [answer, setAnswer] = useState({
     selectedAnswer: '',
     isCorrect: null,
@@ -27,7 +26,7 @@ const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
     setTimeout(() => {
       setAnswer({
         selectedAnswer: answer,
-        isCorrect: combinedQuestions[questionIndex].answers[0] === answer,
+        isCorrect: selectedQuestions[questionIndex].answers[0] === answer,
       });
 
       setTimeout(() => {
@@ -52,9 +51,9 @@ const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
         onTimeout={answer.selectedAnswer === '' ? onSkipAnswer : null}
         mode={answerState}
       /> */}
-      <h2>{combinedQuestions[questionIndex].text}</h2>
+      <h2>{selectedQuestions[questionIndex].text}</h2>
       <Answers
-        answers={combinedQuestions[questionIndex].answers}
+        answers={selectedQuestions[questionIndex].answers}
         selectedAnswer={answer.selectedAnswer}
         answerState={answerState}
         onSelect={handleSelectAnswer}
