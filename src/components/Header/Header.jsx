@@ -17,7 +17,7 @@ const Header = () => {
           <img src={appLogo} alt="Logo" />{' '}
         </div>
         <nav className={'nav-menu'}>
-          <Link to="/categories" className="nav-item">
+          <Link to="/" className="nav-item">
             Home
           </Link>
         </nav>

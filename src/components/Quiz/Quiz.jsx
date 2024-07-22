@@ -16,7 +16,6 @@ export default function Quiz() {
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const category = params.get('category');
-    console.log(`selectedCategory`, category);
     let selectedQuestions = [];
     switch (category) {
       case 'movie':
@@ -32,7 +31,6 @@ export default function Quiz() {
         selectedQuestions = [];
         break;
     }
-    console.log(`selectedQuestions`, selectedQuestions);
 
     setQuestions(selectedQuestions);
   }, [location.search]);
