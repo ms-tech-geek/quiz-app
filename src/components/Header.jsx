@@ -1,9 +1,15 @@
 // src/components/Header.js
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import appLogo from '../assets/quiz-logo.png';
 import './Header.css';
 
 const Header = () => {
+  const location = useLocation();
+
+  if (location.pathname === '/') {
+    return null;
+  }
+
   return (
     <header className="header">
       <div className="header-container">
