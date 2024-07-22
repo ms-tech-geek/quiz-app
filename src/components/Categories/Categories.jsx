@@ -18,7 +18,7 @@ const Categories = () => {
             <h3>Identify the Movie from a Hit Song</h3>
           </div>
         </Link>
-        <Link to="/quiz?category=scene" className="category-item">
+        {/* <Link to="/quiz?category=scene" className="category-item">
           <div className="category-content">
             <h3>Recognize the Movie from an Iconic Scene Image</h3>
           </div>
@@ -27,7 +27,7 @@ const Categories = () => {
           <div className="category-content">
             <h3>Name the Song from a Memorable Video Clip</h3>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
