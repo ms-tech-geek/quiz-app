@@ -37,20 +37,6 @@ const Home = () => {
             <li>Name the song from a memorable video clip.</li>
           </ul>
         </section>
-        <section className="home-features">
-          <h3>Features</h3>
-          <ul>
-            <li>No Advertisements: Enjoy an uninterrupted experience.</li>
-            <li>
-              Scientifically Backed: Developed with insights from Bollywood
-              enthusiasts to ensure accuracy and relevance.
-            </li>
-            <li>
-              Immediate Results: Get instant feedback on your Bollywood
-              knowledge at the end of the quiz.
-            </li>
-          </ul>
-        </section>
       </main>
     </div>
   );

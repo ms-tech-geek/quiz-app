@@ -2,7 +2,7 @@
 .home-container {
   font-family: 'Roboto', sans-serif;
   color: #ebe7ef;
-  margin-top: -2rem;
+  background-color: #1d0433 !important;
 }
 
 .home-header {
@@ -24,7 +24,7 @@
 
 .home-welcome {
   text-align: center;
-  background-color: #1d0433;
+
   color: #fff;
   border-radius: 8px;
   min-height: calc(100vh - 4rem);
@@ -64,48 +64,39 @@
   background-color: #d471e6;
 }
 
-.home-info,
-.home-features {
+.home-info {
   padding: 40px 20px;
-  background-color: #fff;
-  margin: 20px auto;
   border-radius: 8px;
   max-width: 600px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   color: #333;
 }
 
-.home-info h3,
-.home-features h3 {
+.home-info h3 {
   font-size: 1.8em;
   margin-bottom: 10px;
   color: #4a148c;
 }
 
-.home-info p,
-.home-features p,
-.home-features ul {
+.home-info p {
   font-size: 1.1em;
   color: #666;
   line-height: 1.6;
 }
 
-.home-info ul,
-.home-features ul {
+.home-info ul {
   list-style: none;
   padding: 0;
   margin: 20px 0;
 }
 
-.home-info ul li,
-.home-features ul li {
+.home-info ul li {
   margin: 10px 0;
   padding-left: 20px;
   position: relative;
 }
 
-.home-info ul li::before,
-.home-features ul li::before {
+.home-info ul li::before {
   content: '•';
   color: #ff6600;
   font-size: 1.5em;
