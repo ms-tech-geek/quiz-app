@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <header className="home-header">
-        <h1>Bollywood Quiz App</h1>
+        <h1>BOLLYWOOD QUIZ APP</h1>
       </header>
       <main>
         <section className="home-welcome">
