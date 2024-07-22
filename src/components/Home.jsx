@@ -30,10 +30,10 @@ const Home = () => {
           </p>
           <h3>What You Can Do</h3>
           <ul>
-            <li>Guess the movie based on a famous dialogue.</li>
-            <li>Guess the movie based on a popular song.</li>
-            <li>Guess the movie based on a movie scene image.</li>
-            <li>Guess the song based on a video clip.</li>
+            <li>Guess the movie from a legendary dialogue.</li>
+            <li>Identify the movie from a hit song.</li>
+            <li>Recognize the movie from an iconic scene image.</li>
+            <li>Name the movie from a memorable video clip.</li>
           </ul>
         </section>
       </main>
