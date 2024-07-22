@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import Quiz from './components/Quiz';
-import Header from './components/Header';
+import Home from './components/Home/Home';
+import Quiz from './components/Quiz/Quiz';
+import Header from './components/Header/Header';
 
 const App = () => {
   return (

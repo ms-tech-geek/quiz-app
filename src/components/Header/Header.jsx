@@ -1,6 +1,6 @@
 // src/components/Header.js
 import { Link, useLocation } from 'react-router-dom';
-import appLogo from '../assets/quiz-logo.png';
+import appLogo from '../../assets/quiz-logo.png';
 import './Header.css';
 
 const Header = () => {

@@ -1,6 +1,5 @@
-// import QuestionTimer from './QuestionTimer';
 import Answers from './Answers';
-import combinedQuestions from '../questions.js';
+import combinedQuestions from '../../questions.js';
 import { useState } from 'react';
 
 const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
