@@ -46,12 +46,13 @@ const Question = ({ questionIndex, onSelectAnswer, onSkipAnswer }) => {
   }
   return (
     <div id="question">
-      <QuestionTimer
+      {/* Temporarily disable question timer */}
+      {/* <QuestionTimer
         key={timer}
         timeout={timer}
         onTimeout={answer.selectedAnswer === '' ? onSkipAnswer : null}
         mode={answerState}
-      />
+      /> */}
       <h2>{combinedQuestions[questionIndex].text}</h2>
       <Answers
         answers={combinedQuestions[questionIndex].answers}
