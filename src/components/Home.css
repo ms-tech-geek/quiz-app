@@ -61,7 +61,8 @@
 }
 
 .start-quiz-button:hover {
-  background-color: #d471e6;
+  color: white;
+  background: linear-gradient(0deg, #e781fb 10%, #8e76fa 60%);
 }
 
 .home-info {
