@@ -21,7 +21,8 @@ const Home = () => {
             <button className="start-quiz-button">Take the Quiz</button>
           </Link>
         </section>
-        <section className="home-info">
+        {/* Temporarily disable this feature */}
+        {/* <section className="home-info">
           <h3>Why Take This Quiz?</h3>
           <p>
             Think you're a Bollywood buff? Put your knowledge to the test and
@@ -36,7 +37,7 @@ const Home = () => {
             <li>Recognize the movie from an iconic scene image.</li>
             <li>Name the song from a memorable video clip.</li>
           </ul>
-        </section>
+        </section> */}
       </main>
     </div>
   );
