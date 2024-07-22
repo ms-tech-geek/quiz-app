@@ -2,7 +2,8 @@
 .home-container {
   font-family: 'Roboto', sans-serif;
   color: #ebe7ef;
-  background-color: #1d0433 !important;
+  background-color: #1d0433;
+  margin-top: -2rem;
 }
 
 .home-header {
@@ -24,9 +25,7 @@
 
 .home-welcome {
   text-align: center;
-
-  color: #fff;
-  border-radius: 8px;
+  color: #1d0433;
   min-height: calc(100vh - 4rem);
   display: flex;
   flex-direction: column;
@@ -36,9 +35,9 @@
 .home-welcome h2 {
   font-size: 2em;
   margin: 0 auto 2rem auto;
-  padding: 0.5rem;
+  padding: 1rem 2rem;
   background: linear-gradient(90deg, #e781fb 40%, #8e76fa 60%);
-  border-radius: 12px;
+  border-radius: 50px;
   max-width: fit-content;
 }
 
@@ -49,11 +48,12 @@
 }
 
 .start-quiz-button {
-  background-color: #e781fb;
-  color: #fff;
+  background: linear-gradient(180deg, #e781fb 10%, #8e76fa 60%);
+  color: #1d0433;
+  font-weight: 700;
   padding: 15px 30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
   font-size: 18px;
   text-decoration: none;
