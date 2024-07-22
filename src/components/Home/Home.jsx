@@ -17,7 +17,7 @@ const Home = () => {
             songs, dialogues, and scenes. Challenge yourself and see how well
             you know Bollywood!
           </p>
-          <Link to="/quiz">
+          <Link to="/categories">
             <button className="start-quiz-button">Take the Quiz</button>
           </Link>
         </section>
