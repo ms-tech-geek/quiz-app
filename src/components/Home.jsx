@@ -6,11 +6,11 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <header className="home-header">
-        <h1>BOLLYWOOD QUIZ APP</h1>
-      </header>
       <main>
         <section className="home-welcome">
+          <header className="home-header">
+            <h1>BOLLYWOOD QUIZ</h1>
+          </header>
           <h2>Test Your Bollywood Knowledge!</h2>
           <p>
             Welcome to the Bollywood Quiz App, where you can guess movies,
