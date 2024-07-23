@@ -1,291 +1,226 @@
 export default [
   {
     "id": "q1",
-    "category": "dialogue-to-movie",
-    "text": "Mogambo khush hua?",
-    "answers": ["Mr. India", "Don", "Sholay", "Deewar"]
+    "text": "Bade bade deshon mein aisi choti choti baatein hoti rehti hain.",
+    "correctAnswer": "Dilwale Dulhania Le Jayenge",
+    "wrongAnswers": ["Kabhi Khushi Kabhie Gham", "Kuch Kuch Hota Hai", "Kal Ho Naa Ho", "Rab Ne Bana Di Jodi"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q2",
-    "category": "dialogue-to-movie",
-    "text": "Kitne aadmi the?",
-    "answers": ["Sholay", "Don", "Deewar", "Zanjeer"]
+    "text": "Mere paas maa hai.",
+    "correctAnswer": "Deewaar",
+    "wrongAnswers": ["Zanjeer", "Don", "Shakti", "Agneepath"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q3",
-    "category": "dialogue-to-movie",
-    "text": "Tension lene ka nahi, sirf dene ka.",
-    "answers": ["Munna Bhai M.B.B.S.", "3 Idiots", "Dil Chahta Hai", "Lagaan"]
+    "text": "Kitne aadmi the?",
+    "correctAnswer": "Sholay",
+    "wrongAnswers": ["Deewaar", "Zanjeer", "Ganga Jumna", "Don"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q4",
-    "category": "dialogue-to-movie",
-    "text": "Bade bade deshon mein aisi choti choti baatein hoti rehti hain.",
-    "answers": [
-      "Dilwale Dulhania Le Jayenge",
-      "Kabhi Khushi Kabhie Gham",
-      "Kuch Kuch Hota Hai",
-      "Mohabbatein"
-    ]
+    "text": "Rishte mein toh hum tumhare baap lagte hain, naam hai Shahenshah.",
+    "correctAnswer": "Shahenshah",
+    "wrongAnswers": ["Don", "Deewaar", "Shakti", "Agneepath"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q5",
-    "category": "dialogue-to-movie",
-    "text": "Don ko pakadna mushkil hi nahi, namumkin hai.",
-    "answers": ["Don", "Sholay", "Deewar", "Zanjeer"]
+    "text": "Mogambo khush hua.",
+    "correctAnswer": "Mr. India",
+    "wrongAnswers": ["Sholay", "Don", "Deewaar", "Karma"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q6",
-    "category": "dialogue-to-movie",
-    "text": "Dosti ka ek usool hai madam – no sorry, no thank you.",
-    "answers": [
-      "Maine Pyar Kiya",
-      "Dil",
-      "Qayamat Se Qayamat Tak",
-      "Hum Aapke Hain Koun..!"
-    ]
+    "text": "Ek baar jo maine commitment kar di, uske baad toh main khud ki bhi nahi sunta.",
+    "correctAnswer": "Wanted",
+    "wrongAnswers": ["Dabangg", "Kick", "Bodyguard", "Sultan"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q7",
-    "category": "dialogue-to-movie",
-    "text": "I can talk English, I can walk English, I can laugh English.",
-    "answers": ["Namak Halaal", "Amar Akbar Anthony", "Agneepath", "Shakti"]
+    "text": "Agar tumhare paas gareebi hai, toh tumhare paas kuch nahi hai.",
+    "correctAnswer": "Pyaar Ka Punchnama",
+    "wrongAnswers": ["Sonu Ke Titu Ki Sweety", "Pyaar Ka Punchnama 2", "Luka Chuppi", "Sweety Ki Titu Weds Sonu"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q8",
-    "category": "dialogue-to-movie",
-    "text": "Mere paas maa hai.",
-    "answers": ["Deewar", "Sholay", "Zanjeer", "Don"]
+    "text": "How's the josh? High Sir!",
+    "correctAnswer": "Uri: The Surgical Strike",
+    "wrongAnswers": ["Raazi", "Parmanu", "Kesari", "Satyameva Jayate"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q9",
-    "category": "dialogue-to-movie",
-    "text": "Babumoshai, zindagi badi honi chahiye, lambi nahi.",
-    "answers": ["Anand", "Mili", "Guddi", "Bawarchi"]
+    "text": "Tumse na ho payega.",
+    "correctAnswer": "Gangs of Wasseypur",
+    "wrongAnswers": ["Gully Boy", "Sacred Games", "Raman Raghav 2.0", "Black Friday"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q10",
-    "category": "dialogue-to-movie",
-    "text": "Tera naam kya hai, Basanti?",
-    "answers": ["Sholay", "Deewar", "Zanjeer", "Don"]
+    "text": "Aaj khush toh bahut hoge tum.",
+    "correctAnswer": "Deewaar",
+    "wrongAnswers": ["Sholay", "Don", "Zanjeer", "Shakti"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q11",
-    "category": "movie-to-dialogue",
-    "text": "Sholay",
-    "answers": [
-      "Kitne aadmi the?",
-      "Don ko pakadna mushkil hi nahi, namumkin hai.",
-      "Mere paas maa hai.",
-      "Tera naam kya hai, Basanti?"
-    ]
+    "text": "Don ko pakadna mushkil hi nahi, namumkin hai.",
+    "correctAnswer": "Don",
+    "wrongAnswers": ["Deewaar", "Kaala Patthar", "Zanjeer", "Sholay"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q12",
-    "category": "movie-to-dialogue",
-    "text": "Dilwale Dulhania Le Jayenge",
-    "answers": [
-      "Bade bade deshon mein aisi choti choti baatein hoti rehti hain.",
-      "Pyar dosti hai.",
-      "Mujhe jo chahiye woh main le leta hoon.",
-      "Don ko pakadna mushkil hi nahi, namumkin hai."
-    ]
+    "text": "Tera naam kya hai Basanti?",
+    "correctAnswer": "Sholay",
+    "wrongAnswers": ["Seeta Aur Geeta", "Kudrat", "Saudagar", "Kranti"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q13",
-    "category": "movie-to-dialogue",
-    "text": "Munna Bhai M.B.B.S.",
-    "answers": [
-      "Tension lene ka nahi, sirf dene ka.",
-      "Aadmi ka main character uski kabar tak uske saath rehta hai.",
-      "Jadoo ki jhappi.",
-      "Ae bhai, tune kya bola?"
-    ]
+    "text": "Babumoshai, zindagi badi honi chahiye, lambi nahi.",
+    "correctAnswer": "Anand",
+    "wrongAnswers": ["Bawarchi", "Guddi", "Kati Patang", "Namak Haraam"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q14",
-    "category": "movie-to-dialogue",
-    "text": "Mr. India",
-    "answers": [
-      "Mogambo khush hua?",
-      "Aaj mere paas bangla hai, gaadi hai, bank balance hai.",
-      "Rishtey mein toh hum tumhare baap lagte hain.",
-      "Don ko pakadna mushkil hi nahi, namumkin hai."
-    ]
+    "text": "All is well.",
+    "correctAnswer": "3 Idiots",
+    "wrongAnswers": ["PK", "Munna Bhai MBBS", "Lage Raho Munna Bhai", "Dhoom 3"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q15",
-    "category": "movie-to-dialogue",
-    "text": "3 Idiots",
-    "answers": [
-      "All is well.",
-      "Babuji ne kaha gaon chhod do.",
-      "Aal izz well.",
-      "I am Rancho."
-    ]
+    "text": "Pushpa, I hate tears.",
+    "correctAnswer": "Amar Prem",
+    "wrongAnswers": ["Anand", "Kati Patang", "Aradhana", "Safar"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q16",
-    "category": "movie-to-dialogue",
-    "text": "Anand",
-    "answers": [
-      "Babumoshai, zindagi badi honi chahiye, lambi nahi.",
-      "Babu moshai, hum sab rangmanch ki kathputliyan hain.",
-      "Maut tu ek kavita hai.",
-      "Zindagi ek rangmanch hai."
-    ]
+    "text": "Mere Karan Arjun aayenge.",
+    "correctAnswer": "Karan Arjun",
+    "wrongAnswers": ["Dilwale Dulhania Le Jayenge", "Baazigar", "Kabhi Khushi Kabhie Gham", "Kuch Kuch Hota Hai"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q17",
-    "category": "movie-to-dialogue",
-    "text": "Maine Pyar Kiya",
-    "answers": [
-      "Dosti ka ek usool hai madam – no sorry, no thank you.",
-      "Hum Aapke Hain Koun..!",
-      "Pehla Nasha, Pehla Khumar.",
-      "Aaja shaam hone aayi."
-    ]
+    "text": "Mard ko dard nahi hota.",
+    "correctAnswer": "Mard",
+    "wrongAnswers": ["Sholay", "Deewaar", "Agneepath", "Zanjeer"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q18",
-    "category": "movie-to-dialogue",
-    "text": "Agneepath",
-    "answers": [
-      "Vijay Dinanath Chauhan.",
-      "Naam Vijay Chauhan.",
-      "Hum jahan khade ho jate hain, line wahi se shuru hoti hai.",
-      "Main aaj bhi phenke hue paise nahi uthata."
-    ]
+    "text": "Mere baare mein itna mat sochna, dil mein aata hoon, samajh mein nahi.",
+    "correctAnswer": "Kick",
+    "wrongAnswers": ["Wanted", "Dabangg", "Sultan", "Bajrangi Bhaijaan"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q19",
-    "category": "movie-to-dialogue",
-    "text": "Kabhi Khushi Kabhie Gham",
-    "answers": [
-      "It’s all about loving your parents.",
-      "Pyar dosti hai.",
-      "Rahul, naam toh suna hoga.",
-      "Mujhe jo chahiye woh main le leta hoon."
-    ]
+    "text": "Kabhi kabhi lagta hai apun hi bhagwan hai.",
+    "correctAnswer": "Sacred Games",
+    "wrongAnswers": ["Gangs of Wasseypur", "Gully Boy", "Raman Raghav 2.0", "Black Friday"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q20",
-    "category": "movie-to-dialogue",
-    "text": "Lagaan",
-    "answers": [
-      "Bhuvan, tujhse na ho payega.",
-      "Bhuvan!",
-      "Mujhe jo chahiye woh main le leta hoon.",
-      "Dosti ka ek usool hai madam – no sorry, no thank you."
-    ]
+    "text": "Mujhe acche lagte hain woh log jo haar maan lete hain.",
+    "correctAnswer": "Dil Chahta Hai",
+    "wrongAnswers": ["Kal Ho Naa Ho", "Zindagi Na Milegi Dobara", "Rock On!!", "Lakshya"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q21",
-    "category": "song-to-movie",
-    "text": "Tum Hi Ho (Aashiqui 2)",
-    "answers": [
-      "Aashiqui 2",
-      "Dilwale Dulhania Le Jayenge",
-      "Kabhi Khushi Kabhie Gham",
-      "Dil Se"
-    ]
+    "text": "I can talk English, I can walk English, I can laugh English because English is a very phunny language.",
+    "correctAnswer": "Namak Halaal",
+    "wrongAnswers": ["Sharaabi", "Lawaaris", "Satte Pe Satta", "Kaalia"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q22",
-    "category": "song-to-movie",
-    "text": "Jinke sar ho ishq ki chhaon, paaon ke neeche jannat hogi",
-    "answers": [
-      "Dil Se",
-      "Kabhi Khushi Kabhie Gham",
-      "Dilwale",
-      "Kuch Kuch Hota Hai"
-    ]
+    "text": "Ek chutki sindoor ki keemat tum kya jaano Ramesh babu.",
+    "correctAnswer": "Om Shanti Om",
+    "wrongAnswers": ["Chennai Express", "Happy New Year", "Dilwale", "Main Hoon Na"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q23",
-    "category": "song-to-movie",
-    "text": "Har ghadi badal rahi hai roop zindagi",
-    "answers": [
-      "Kal Ho Naa Ho",
-      "Kabhi Alvida Naa Kehna",
-      "Kabhi Khushi Kabhie Gham",
-      "Dilwale Dulhania Le Jayenge"
-    ]
+    "text": "Aree o Sambha, kitna inaam rakhe hain sarkar hum par?",
+    "correctAnswer": "Sholay",
+    "wrongAnswers": ["Deewaar", "Don", "Kaalia", "Satte Pe Satta"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q24",
-    "category": "song-to-movie",
-    "text": "Suraj hua maddham, chand jalne laga",
-    "answers": [
-      "Kabhi Khushi Kabhie Gham",
-      "Dilwale Dulhania Le Jayenge",
-      "Mohabbatein",
-      "Kal Ho Naa Ho"
-    ]
+    "text": "I am a disco dancer.",
+    "correctAnswer": "Disco Dancer",
+    "wrongAnswers": ["Dance Dance", "Kasam Paida Karne Wale Ki", "Commando", "Agneepath"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q25",
-    "category": "song-to-movie",
-    "text": "Pehla nasha, pehla khumar",
-    "answers": [
-      "Jo Jeeta Wohi Sikandar",
-      "Dil",
-      "Hum Aapke Hain Koun..!",
-      "Qayamat Se Qayamat Tak"
-    ]
+    "text": "Bachna ae haseeno, lo main aa gaya.",
+    "correctAnswer": "Hum Kisise Kum Naheen",
+    "wrongAnswers": ["Amar Akbar Anthony", "Karz", "Kabhi Kabhie", "Khel Khel Mein"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q26",
-    "category": "song-to-movie",
-    "text": "Tujhe dekha to yeh jaana sanam",
-    "answers": [
-      "Dilwale Dulhania Le Jayenge",
-      "Kuch Kuch Hota Hai",
-      "Mohabbatein",
-      "Rab Ne Bana Di Jodi"
-    ]
+    "text": "Jo jeeta wohi sikandar.",
+    "correctAnswer": "Jo Jeeta Wohi Sikandar",
+    "wrongAnswers": ["Qayamat Se Qayamat Tak", "Dil", "Hum Hain Rahi Pyar Ke", "Mann"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q27",
-    "category": "song-to-movie",
-    "text": "Chaand sifarish jo karta hamari",
-    "answers": [
-      "Fanaa",
-      "Rang De Basanti",
-      "Ghajini",
-      "Taare Zameen Par"
-    ]
+    "text": "Picture abhi baaki hai mere dost.",
+    "correctAnswer": "Om Shanti Om",
+    "wrongAnswers": ["Chennai Express", "Happy New Year", "Dilwale", "Main Hoon Na"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q28",
-    "category": "song-to-movie",
-    "text": "Ishq kameena, dil paagal deewana",
-    "answers": [
-      "Om Shanti Om",
-      "Chennai Express",
-      "Happy New Year",
-      "Raees"
-    ]
+    "text": "Dosti ka ek usool hai madam, no sorry, no thank you.",
+    "correctAnswer": "Maine Pyar Kiya",
+    "wrongAnswers": ["Hum Aapke Hain Koun..!", "Hum Saath-Saath Hain", "Pyaar Kiya To Darna Kya", "Karan Arjun"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q29",
-    "category": "song-to-movie",
-    "text": "Jai Ho! Aaja aaja jind shamiyane ke tale",
-    "answers": [
-      "Slumdog Millionaire",
-      "Jai Ho",
-      "Dabangg",
-      "Sultan"
-    ]
+    "text": "Zindagi mein kabhi haar mat maanna, humesha jeetne ki soch.",
+    "correctAnswer": "Angrezi Medium",
+    "wrongAnswers": ["Hindi Medium", "Piku", "Karwaan", "Madaari"],
+    "category": "dialogue-to-movie"
   },
   {
     "id": "q30",
-    "category": "song-to-movie",
-    "text": "Kaisa yeh raaz hai, jaane kya kar gaye",
-    "answers": [
-      "Yeh Jawaani Hai Deewani",
-      "Barfi!",
-      "Tamasha",
-      "Rockstar"
-    ]
-  }]
+    "text": "Anari hoon, pyar se naari hoon.",
+    "correctAnswer": "Anari",
+    "wrongAnswers": ["Brahmachari", "Aashiq", "Majnu", "Chor Machaye Shor"],
+    "category": "dialogue-to-movie"
+  },
+  {
+    "id": "q31",
+    "text": "Aaj mere paas bangla hai, gaadi hai, bank balance hai. Tumhare paas kya hai?",
+    "correctAnswer": "Deewaar",
+    "wrongAnswers": ["Sholay", "Don", "Agneepath", "Zanjeer"],
+    "category": "dialogue-to-movie"
+  },
+  {
+    "id": "q32",
+    "text": "Itna sannata kyon hai bhai?",
+    "correctAnswer": "Sholay",
+    "wrongAnswers": ["Deewaar", "Zanjeer", "Don", "Kaala Patthar"],
+    "category": "dialogue-to-movie"
+  }
+]
