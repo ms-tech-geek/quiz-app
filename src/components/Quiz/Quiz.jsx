@@ -24,7 +24,7 @@ export default function Quiz() {
         break;
     }
 
-    setQuestions(selectedQuestions);
+    setQuestions(selectedQuestions.sort((a, b) => Math.random - 0.5));
   }, [location.search]);
 
   const activeQuestionIndex = userAnswers.length;
@@ -53,7 +53,7 @@ export default function Quiz() {
       <Question
         key={activeQuestionIndex}
         questionIndex={activeQuestionIndex}
-        selectedQuestions={questions.sort((a, b) => Math.random() - 0.5)}
+        selectedQuestions={questions}
         onSelectAnswer={handleSelectAnswer}
         onSkipAnswer={handleSkipAnswer}
       />
