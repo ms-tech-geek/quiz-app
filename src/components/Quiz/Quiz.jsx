@@ -15,16 +15,16 @@ export default function Quiz() {
     let selectedQuestions = [];
     switch (category) {
       case 'dialogue-to-movie':
-        selectedQuestions = questionsData.filter(
-          (question) => question.category === 'dialogue-to-movie'
-        );
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'dialogue-to-movie')
+          .sort((a, b) => Math.random() - 0.5);
         break;
       default:
         selectedQuestions = [];
         break;
     }
 
-    setQuestions(selectedQuestions.sort((a, b) => Math.random - 0.5));
+    setQuestions(selectedQuestions);
   }, [location.search]);
 
   const activeQuestionIndex = userAnswers.length;
