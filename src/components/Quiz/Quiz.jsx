@@ -53,7 +53,7 @@ export default function Quiz() {
       <Question
         key={activeQuestionIndex}
         questionIndex={activeQuestionIndex}
-        selectedQuestions={questions}
+        selectedQuestions={questions.sort((a, b) => Math.random() - 0.5)}
         onSelectAnswer={handleSelectAnswer}
         onSkipAnswer={handleSkipAnswer}
       />
