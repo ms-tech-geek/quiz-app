@@ -19,16 +19,6 @@ export default function Quiz() {
           (question) => question.category === 'dialogue-to-movie'
         );
         break;
-      case 'movie-to-dialogue':
-        selectedQuestions = questionsData.filter(
-          (question) => question.category === 'movie-to-dialogue'
-        );
-        break;
-      case 'song-to-movie':
-        selectedQuestions = questionsData.filter(
-          (question) => question.category === 'song-to-movie'
-        );
-        break;
       default:
         selectedQuestions = [];
         break;
