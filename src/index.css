@@ -148,6 +148,12 @@ body {
   /* box-shadow: 0 0 4px 2px rgba(255, 200, 60, 0.8); */
 }
 
+.answer button:disabled {
+  background: #6cb7f5;
+  color: black;
+  opacity: 0.5;
+}
+
 .answer button.selected {
   /* background: linear-gradient(180deg, #fbda81 0%, #f8b173 100%); */
   background: #f5a76c;
@@ -158,12 +164,14 @@ body {
   /* background: linear-gradient(180deg, #a1fa61 0%, #52d482 100%); */
   background: #5af59d;
   color: #2c203d;
+  opacity: 1 !important;
 }
 
 .answer button.wrong {
   /* background: linear-gradient(180deg, #f96fb1 0%, #f52b8c 100%); */
   background: #f55a98;
   color: #2c203d;
+  opacity: 1 !important;
 }
 
 #skip-action {
