@@ -1,7 +1,13 @@
+import QuestionTimer from './QuestionTimer';
 import Answers from './Answers';
 import { useState } from 'react';
 
-const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
+const Question = ({
+  questionIndex,
+  onSelectAnswer,
+  selectedQuestions,
+  onSkipAnswer,
+}) => {
   const answers = {
     correctAnswer: selectedQuestions[questionIndex].correctAnswer,
     wrongAnswers: selectedQuestions[questionIndex].wrongAnswers,
@@ -51,12 +57,12 @@ const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
   return (
     <div id="question">
       {/* Temporarily disable question timer */}
-      {/* <QuestionTimer
+      <QuestionTimer
         key={timer}
         timeout={timer}
         onTimeout={answer.selectedAnswer === '' ? onSkipAnswer : null}
         mode={answerState}
-      /> */}
+      />
       <h2>{selectedQuestions[questionIndex].text}</h2>
       <Answers
         answers={answers}
