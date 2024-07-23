@@ -3,7 +3,7 @@ import quizCompleteImg from '../../assets/quiz-complete.png';
 export default function Summary({ selectedQuestions, userAnswers }) {
   const skippedAnswers = userAnswers.filter((answer) => answer === null);
   const correctAnswers = userAnswers.filter(
-    (answer, index) => answer === selectedQuestions[index].answers[0]
+    (answer, index) => answer === selectedQuestions[index].correctAnswer
   );
 
   const skippedAnswersShare = Math.round(
