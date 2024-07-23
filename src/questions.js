@@ -106,9 +106,9 @@ export default [
   },
   {
     "id": "q16",
-    "text": "Mere Karan Arjun aayenge.",
-    "correctAnswer": "Karan Arjun",
-    "wrongAnswers": ["Dilwale Dulhania Le Jayenge", "Baazigar", "Kabhi Khushi Kabhie Gham", "Kuch Kuch Hota Hai"],
+    "text": "Aaj mere paas bangla hai, gaadi hai, bank balance hai. Tumhare paas kya hai?",
+    "correctAnswer": "Deewaar",
+    "wrongAnswers": ["Sholay", "Don", "Agneepath", "Zanjeer"],
     "category": "dialogue-to-movie"
   },
   {
@@ -176,9 +176,9 @@ export default [
   },
   {
     "id": "q26",
-    "text": "Jo jeeta wohi sikandar.",
-    "correctAnswer": "Jo Jeeta Wohi Sikandar",
-    "wrongAnswers": ["Qayamat Se Qayamat Tak", "Dil", "Hum Hain Rahi Pyar Ke", "Mann"],
+    "text": "Itna sannata kyon hai bhai?",
+    "correctAnswer": "Sholay",
+    "wrongAnswers": ["Deewaar", "Zanjeer", "Don", "Kaala Patthar"],
     "category": "dialogue-to-movie"
   },
   {
@@ -207,20 +207,6 @@ export default [
     "text": "Anari hoon, pyar se naari hoon.",
     "correctAnswer": "Anari",
     "wrongAnswers": ["Brahmachari", "Aashiq", "Majnu", "Chor Machaye Shor"],
-    "category": "dialogue-to-movie"
-  },
-  {
-    "id": "q31",
-    "text": "Aaj mere paas bangla hai, gaadi hai, bank balance hai. Tumhare paas kya hai?",
-    "correctAnswer": "Deewaar",
-    "wrongAnswers": ["Sholay", "Don", "Agneepath", "Zanjeer"],
-    "category": "dialogue-to-movie"
-  },
-  {
-    "id": "q32",
-    "text": "Itna sannata kyon hai bhai?",
-    "correctAnswer": "Sholay",
-    "wrongAnswers": ["Deewaar", "Zanjeer", "Don", "Kaala Patthar"],
     "category": "dialogue-to-movie"
   }
 ]
