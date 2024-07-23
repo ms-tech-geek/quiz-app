@@ -1,10 +1,6 @@
 import { useState, useCallback, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import {
-  movieQuestions,
-  songQuestions,
-  dialogueQuestions,
-} from '../../questions.js';
+import questionsData from '../../questions.js';
 import Question from './Question.jsx';
 import Summary from '../Result/Summary.jsx';
 
@@ -18,14 +14,20 @@ export default function Quiz() {
     const category = params.get('category');
     let selectedQuestions = [];
     switch (category) {
-      case 'movie':
-        selectedQuestions = movieQuestions;
+      case 'dialogue-to-movie':
+        selectedQuestions = questionsData.filter(
+          (question) => question.category === 'dialogue-to-movie'
+        );
         break;
-      case 'song':
-        selectedQuestions = songQuestions;
+      case 'movie-to-dialogue':
+        selectedQuestions = questionsData.filter(
+          (question) => question.category === 'movie-to-dialogue'
+        );
         break;
-      case 'dialogue':
-        selectedQuestions = dialogueQuestions;
+      case 'song-to-movie':
+        selectedQuestions = questionsData.filter(
+          (question) => question.category === 'song-to-movie'
+        );
         break;
       default:
         selectedQuestions = [];

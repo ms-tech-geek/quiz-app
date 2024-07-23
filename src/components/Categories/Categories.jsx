@@ -8,12 +8,17 @@ const Categories = () => {
     <div className="categories-container">
       <h2>Select a Category</h2>
       <div className="categories-list">
-        <Link to="/quiz?category=dialogue" className="category-item">
+        <Link to="/quiz?category=dialogue-to-movie" className="category-item">
           <div className="category-content">
             <h3>Guess the Movie from a Legendary Dialogue</h3>
           </div>
         </Link>
-        <Link to="/quiz?category=song" className="category-item">
+        <Link to="/quiz?category=movie-to-dialogue" className="category-item">
+          <div className="category-content">
+            <h3>Guess the Hit Dialogue from a Famous Movie</h3>
+          </div>
+        </Link>
+        <Link to="/quiz?category=song-to-movie" className="category-item">
           <div className="category-content">
             <h3>Identify the Movie from a Hit Song</h3>
           </div>
