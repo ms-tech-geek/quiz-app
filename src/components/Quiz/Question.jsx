@@ -2,6 +2,11 @@ import Answers from './Answers';
 import { useState } from 'react';
 
 const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
+  const answers = [
+    selectedQuestions[questionIndex].correctAnswer,
+    ...selectedQuestions[questionIndex].wrongAnswers,
+  ];
+
   const [answer, setAnswer] = useState({
     selectedAnswer: '',
     isCorrect: null,
@@ -26,7 +31,7 @@ const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
     setTimeout(() => {
       setAnswer({
         selectedAnswer: answer,
-        isCorrect: selectedQuestions[questionIndex].answers[0] === answer,
+        isCorrect: answers[0] === answer,
       });
 
       setTimeout(() => {
@@ -42,6 +47,7 @@ const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
   } else if (answer.selectedAnswer) {
     answerState = 'answered';
   }
+
   return (
     <div id="question">
       {/* Temporarily disable question timer */}
@@ -53,7 +59,7 @@ const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
       /> */}
       <h2>{selectedQuestions[questionIndex].text}</h2>
       <Answers
-        answers={selectedQuestions[questionIndex].answers}
+        answers={answers}
         selectedAnswer={answer.selectedAnswer}
         answerState={answerState}
         onSelect={handleSelectAnswer}
