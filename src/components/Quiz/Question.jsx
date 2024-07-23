@@ -2,10 +2,10 @@ import Answers from './Answers';
 import { useState } from 'react';
 
 const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
-  const answers = [
-    selectedQuestions[questionIndex].correctAnswer,
-    ...selectedQuestions[questionIndex].wrongAnswers,
-  ];
+  const answers = {
+    correctAnswer: selectedQuestions[questionIndex].correctAnswer,
+    wrongAnswers: selectedQuestions[questionIndex].wrongAnswers,
+  };
 
   const [answer, setAnswer] = useState({
     selectedAnswer: '',
@@ -31,7 +31,7 @@ const Question = ({ questionIndex, onSelectAnswer, selectedQuestions }) => {
     setTimeout(() => {
       setAnswer({
         selectedAnswer: answer,
-        isCorrect: answers[0] === answer,
+        isCorrect: answers.correctAnswer === answer,
       });
 
       setTimeout(() => {
