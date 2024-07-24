@@ -1,0 +1,46 @@
+.settings-container {
+  font-family: 'Roboto', sans-serif;
+  color: #ebe7ef;
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #1d0433 0%, #2c2437 100%);
+  max-width: 50rem;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.settings-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #e781fb;
+}
+
+.setting {
+  margin-bottom: 20px;
+}
+
+.setting label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.setting select,
+.setting input[type='checkbox'] {
+  padding: 5px;
+}
+
+.setting select {
+  background-color: #1d0433;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.setting select option {
+  background-color: #1d0433;
+  color: #fff;
+}
+
+.setting input[type='checkbox'] {
+  margin-right: 10px;
+}

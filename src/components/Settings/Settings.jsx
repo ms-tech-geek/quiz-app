@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { SettingsContext } from '../../context/SettingsContext';
+import './Settings.css';
 
 const Settings = () => {
   const { settings, updateSettings } = useContext(SettingsContext);
