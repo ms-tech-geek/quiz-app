@@ -38,7 +38,7 @@ export default function Summary({ selectedQuestions, userAnswers }) {
 
           if (answer === null) {
             cssClass += ' skipped';
-          } else if (answer === selectedQuestions[index].answers[0]) {
+          } else if (answer === selectedQuestions[index].correctAnswer) {
             cssClass += ' correct';
           } else {
             cssClass += ' wrong';
