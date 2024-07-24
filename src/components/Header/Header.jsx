@@ -14,9 +14,15 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">{/* Temporarily No Logo */}</div>
-        <nav className={'nav-menu'}>
+        <nav className="nav-menu">
           <Link to="/" className="nav-item">
             Home
+          </Link>
+          <Link to="/categories" className="nav-item">
+            Categories
+          </Link>
+          <Link to="/settings" className="nav-item">
+            Settings
           </Link>
         </nav>
       </div>
