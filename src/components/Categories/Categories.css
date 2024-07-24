@@ -10,9 +10,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #ebe7ef;
   text-align: center;
-  padding: 60px 20px;
   background: linear-gradient(180deg, #1d0433 0%, #2c2437 100%);
-  max-width: 50rem;
+  padding: 2.5rem 4rem;
+  max-width: fit-content;
   margin: auto;
   border-radius: 25px;
 }
