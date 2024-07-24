@@ -1,10 +1,12 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import questionsData from '../../questions.js';
 import Question from './Question.jsx';
 import Summary, { MiniSummary } from '../Result/Summary.jsx';
+import { SettingsContext } from '../../context/SettingsContext';
 
 export default function Quiz() {
+  const { settings } = useContext(SettingsContext);
   const [userAnswers, setUserAnswers] = useState([]);
   const [questions, setQuestions] = useState([]);
   const location = useLocation();
@@ -18,7 +20,7 @@ export default function Quiz() {
         selectedQuestions = questionsData
           .filter((question) => question.category === 'dialogue-to-movie')
           .sort((a, b) => Math.random() - 0.5)
-          .slice(0, 5);
+          .slice(0, settings.numQuestions);
         break;
       default:
         selectedQuestions = [];

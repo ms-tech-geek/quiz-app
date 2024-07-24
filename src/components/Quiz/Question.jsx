@@ -1,6 +1,7 @@
+import { useState, useContext } from 'react';
 import QuestionTimer from './QuestionTimer';
 import Answers from './Answers';
-import { useState } from 'react';
+import { SettingsContext } from '../../context/SettingsContext';
 
 const Question = ({
   questionIndex,
@@ -8,6 +9,8 @@ const Question = ({
   selectedQuestions,
   onSkipAnswer,
 }) => {
+  const { settings } = useContext(SettingsContext);
+
   const answers = {
     correctAnswer: selectedQuestions[questionIndex].correctAnswer,
     wrongAnswers: selectedQuestions[questionIndex].wrongAnswers,
@@ -18,7 +21,7 @@ const Question = ({
     isCorrect: null,
   });
 
-  let timer = 10000;
+  let timer = settings.timerDuration * 1000;
 
   if (answer.selectedAnswer) {
     timer = 1000;
@@ -56,13 +59,15 @@ const Question = ({
 
   return (
     <div id="question">
-      {/* Temporarily disable question timer */}
-      <QuestionTimer
-        key={timer}
-        timeout={timer}
-        onTimeout={answer.selectedAnswer === '' ? onSkipAnswer : null}
-        mode={answerState}
-      />
+      {settings.timer && (
+        <QuestionTimer
+          key={timer}
+          timeout={timer}
+          onTimeout={answer.selectedAnswer === '' ? onSkipAnswer : null}
+          mode={answerState}
+        />
+      )}
+
       <h2>{selectedQuestions[questionIndex].text}</h2>
       <Answers
         answers={answers}
