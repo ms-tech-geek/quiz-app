@@ -43,6 +43,7 @@
   font-size: 3rem;
   text-decoration: none;
   transition: background-color 0.3s;
+  margin-top: 2rem;
 }
 
 .start-quiz-button:hover {
@@ -93,21 +94,63 @@
 }
 
 /* Responsive design */
-@media (max-width: 600px) {
-  .home-welcome h2,
-  .home-info h3,
-  .home-features h3 {
-    font-size: 1.5em;
-  }
-
-  .home-welcome p,
-  .home-info p,
-  .home-features p {
-    font-size: 1em;
+@media (max-width: 1200px) {
+  .home-header h1 {
+    font-size: 6rem;
   }
 
   .start-quiz-button {
+    font-size: 2rem;
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-header h1 {
+    font-size: 4rem;
+  }
+
+  .start-quiz-button {
+    font-size: 1.5rem;
     padding: 10px 20px;
-    font-size: 16px;
+  }
+
+  .home-info h3 {
+    font-size: 1.6em;
+  }
+
+  .home-info p {
+    font-size: 1em;
+  }
+
+  .home-info ul li::before {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-header h1 {
+    font-size: 3rem;
+  }
+
+  .start-quiz-button {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+  }
+
+  .home-info h3 {
+    font-size: 1.4em;
+  }
+
+  .home-info p {
+    font-size: 0.9em;
+  }
+
+  .home-info ul li::before {
+    font-size: 1em;
+  }
+
+  .home-info {
+    margin: 1rem 1rem;
   }
 }
