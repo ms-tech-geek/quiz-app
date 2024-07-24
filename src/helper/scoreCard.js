@@ -4,13 +4,11 @@ export const deriveScore = ({ selectedQuestions, userAnswers }) => {
     (answer, index) => answer === selectedQuestions[index].correctAnswer
   );
 
-  const skippedAnswersCount = isNaN(skippedAnswers.length / userAnswers.length) ?  0 : Math.round(
-    skippedAnswers.length / userAnswers.length)
+  const skippedAnswersCount = skippedAnswers.length;
 
-  const correctAnswersCount = isNaN(correctAnswers.length / userAnswers.length) ?  0 : Math.round(
-    correctAnswers.length / userAnswers.length)
+  const correctAnswersCount = correctAnswers.length;
 
-    const wrongAnswersCount = userAnswers.length - skippedAnswersCount - correctAnswersCount;
+  const wrongAnswersCount = userAnswers.length - skippedAnswersCount - correctAnswersCount;
 
   const skippedAnswersShare = Math.round(
     (skippedAnswers.length / userAnswers.length) * 100
