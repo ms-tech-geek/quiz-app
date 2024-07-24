@@ -1,20 +1,11 @@
-// src/components/Settings.js
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { SettingsContext } from '../../context/SettingsContext';
 
 const Settings = () => {
-  const [settings, setSettings] = useState({
-    sound: true,
-    timer: true,
-    timerDuration: 10,
-    numQuestions: 10,
-  });
+  const { settings, updateSettings } = useContext(SettingsContext);
 
   const handleToggleSound = () => {
     updateSettings({ ...settings, sound: !settings.sound });
-  };
-
-  const updateSettings = (newSettings) => {
-    setSettings(newSettings);
   };
 
   const handleToggleTimer = () => {
@@ -84,9 +75,6 @@ const Settings = () => {
           <option value={15}>15</option>
           <option value={20}>20</option>
           <option value={30}>30</option>
-          <option value={40}>40</option>
-          <option value={50}>50</option>
-          <option value={100}>100</option>
         </select>
       </div>
     </div>

@@ -5,10 +5,11 @@ import Quiz from './components/Quiz/Quiz';
 import Header from './components/Header/Header';
 import Categories from './components/Categories/Categories';
 import Settings from './components/Settings/Settings';
+import { SettingsProvider } from './context/SettingsContext';
 
 const App = () => {
   return (
-    <>
+    <SettingsProvider>
       <Router>
         <Header />
         <Routes>
@@ -18,7 +19,7 @@ const App = () => {
           <Route path="/settings" element={<Settings />} />
         </Routes>
       </Router>
-    </>
+    </SettingsProvider>
   );
 };
 
