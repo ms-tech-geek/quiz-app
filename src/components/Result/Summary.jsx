@@ -2,7 +2,7 @@ import quizCompleteImg from '../../assets/quiz-complete.png';
 import { deriveScore } from '../../helper/scoreCard';
 
 export function MiniSummary({ selectedQuestions, userAnswers }) {
-  const { skippedAnswersShare, correctAnswersShare, wrongAnswersShare } =
+  const { skippedAnswersCount, correctAnswersCount, wrongAnswersCount } =
     deriveScore({
       selectedQuestions,
       userAnswers,
@@ -12,15 +12,15 @@ export function MiniSummary({ selectedQuestions, userAnswers }) {
     <div id="mini-summary">
       <div id="mini-summary-stats">
         <p>
-          <span className="number">{skippedAnswersShare}%</span>
+          <span className="number">{skippedAnswersCount}</span>
           <span className="text">skipped</span>
         </p>
         <p>
-          <span className="number">{correctAnswersShare}%</span>
+          <span className="number">{correctAnswersCount}</span>
           <span className="text">correct</span>
         </p>
         <p>
-          <span className="number">{wrongAnswersShare}%</span>
+          <span className="number">{wrongAnswersCount}</span>
           <span className="text">incorrect</span>
         </p>
       </div>
