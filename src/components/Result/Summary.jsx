@@ -1,18 +1,39 @@
 import quizCompleteImg from '../../assets/quiz-complete.png';
+import { deriveScore } from '../../helper/scoreCard';
+
+export function MiniSummary({ selectedQuestions, userAnswers }) {
+  const { skippedAnswersShare, correctAnswersShare, wrongAnswersShare } =
+    deriveScore({
+      selectedQuestions,
+      userAnswers,
+    });
+
+  return (
+    <div id="mini-summary">
+      <div id="mini-summary-stats">
+        <p>
+          <span className="number">{skippedAnswersShare}%</span>
+          <span className="text">skipped</span>
+        </p>
+        <p>
+          <span className="number">{correctAnswersShare}%</span>
+          <span className="text">correct</span>
+        </p>
+        <p>
+          <span className="number">{wrongAnswersShare}%</span>
+          <span className="text">incorrect</span>
+        </p>
+      </div>
+    </div>
+  );
+}
 
 export default function Summary({ selectedQuestions, userAnswers }) {
-  const skippedAnswers = userAnswers.filter((answer) => answer === null);
-  const correctAnswers = userAnswers.filter(
-    (answer, index) => answer === selectedQuestions[index].correctAnswer
-  );
-
-  const skippedAnswersShare = Math.round(
-    (skippedAnswers.length / userAnswers.length) * 100
-  );
-  const correctAnswersShare = Math.round(
-    (correctAnswers.length / userAnswers.length) * 100
-  );
-  const wrongAnswersShare = 100 - skippedAnswersShare - correctAnswersShare;
+  const { skippedAnswersShare, correctAnswersShare, wrongAnswersShare } =
+    deriveScore({
+      selectedQuestions,
+      userAnswers,
+    });
 
   return (
     <div id="summary">
@@ -32,7 +53,7 @@ export default function Summary({ selectedQuestions, userAnswers }) {
           <span className="text">answered incorrectly</span>
         </p>
       </div>
-      <ol>
+      {/* <ol>
         {userAnswers.map((answer, index) => {
           let cssClass = 'user-answer';
 
@@ -52,7 +73,7 @@ export default function Summary({ selectedQuestions, userAnswers }) {
             </li>
           );
         })}
-      </ol>
+      </ol> */}
     </div>
   );
 }
