@@ -13,9 +13,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <div className="logo">
-          <img src={appLogo} alt="Logo" />{' '}
-        </div>
+        <div className="logo">{/* Temporarily No Logo */}</div>
         <nav className={'nav-menu'}>
           <Link to="/" className="nav-item">
             Home
