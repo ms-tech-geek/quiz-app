@@ -1,10 +1,9 @@
 .settings-container {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   color: #ebe7ef;
-  text-align: center;
-  padding: 60px 20px;
+  padding: 2.5rem 4rem;
   background: linear-gradient(180deg, #1d0433 0%, #2c2437 100%);
-  max-width: 50rem;
+  max-width: fit-content;
   margin: auto;
   border-radius: 25px;
 }
@@ -13,6 +12,8 @@
   font-size: 2.5em;
   margin-bottom: 40px;
   color: #e781fb;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .setting {
@@ -22,6 +23,12 @@
 .setting label {
   display: block;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.setting select {
+  width: 100%;
 }
 
 .setting select,
