@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import questionsData from '../../questions.js';
 import Question from './Question.jsx';
-import Summary from '../Result/Summary.jsx';
+import Summary, { MiniSummary } from '../Result/Summary.jsx';
 
 export default function Quiz() {
   const [userAnswers, setUserAnswers] = useState([]);
@@ -51,14 +51,17 @@ export default function Quiz() {
   }
 
   return (
-    <div id="quiz">
-      <Question
-        key={activeQuestionIndex}
-        questionIndex={activeQuestionIndex}
-        selectedQuestions={questions}
-        onSelectAnswer={handleSelectAnswer}
-        onSkipAnswer={handleSkipAnswer}
-      />
-    </div>
+    <>
+      <MiniSummary selectedQuestions={questions} userAnswers={userAnswers} />
+      <div id="quiz">
+        <Question
+          key={activeQuestionIndex}
+          questionIndex={activeQuestionIndex}
+          selectedQuestions={questions}
+          onSelectAnswer={handleSelectAnswer}
+          onSkipAnswer={handleSkipAnswer}
+        />
+      </div>
+    </>
   );
 }
