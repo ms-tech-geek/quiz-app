@@ -19,7 +19,6 @@ export default function Quiz() {
           .filter((question) => question.category === 'dialogue-to-movie')
           .sort((a, b) => Math.random() - 0.5)
           .slice(0, 5);
-        console.log(`selectedQuestions Length`, selectedQuestions.length);
         break;
       default:
         selectedQuestions = [];
