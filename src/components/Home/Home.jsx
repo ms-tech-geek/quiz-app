@@ -11,22 +11,16 @@ const Home = () => {
           <header className="home-header">
             <h1>BOLLYWOOD QUIZ</h1>
           </header>
-          <h2>Test Your Bollywood Knowledge!</h2>
-          <p>
-            Welcome to the Bollywood Quiz App, where you can guess movies,
-            songs, dialogues, and scenes. Challenge yourself and see how well
-            you know Bollywood!
-          </p>
           <Link to="/categories">
-            <button className="start-quiz-button">Take the Quiz</button>
+            <button className="start-quiz-button">Let's Play</button>
           </Link>
         </section>
-        {/* Temporarily disable this feature */}
-        {/* <section className="home-info">
+        <section className="home-info">
           <h3>Why Take This Quiz?</h3>
           <p>
-            Think you're a Bollywood buff? Put your knowledge to the test and
-            prove your movie mastery with our exciting quiz!
+            Test Your Bollywood Knowledge!, where you can guess movies, songs,
+            dialogues, and scenes. Challenge yourself and see how well you know
+            Bollywood!
           </p>
         </section>
         <section className="home-info">
@@ -37,7 +31,7 @@ const Home = () => {
             <li>Recognize the movie from an iconic scene image.</li>
             <li>Name the song from a memorable video clip.</li>
           </ul>
-        </section> */}
+        </section>
       </main>
     </div>
   );
