@@ -16,9 +16,39 @@ export default function Quiz() {
     const category = params.get('category');
     let selectedQuestions = [];
     switch (category) {
-      case 'dialogue-to-movie':
+      case 'iconic-movies':
         selectedQuestions = questionsData
-          .filter((question) => question.category === 'dialogue-to-movie')
+          .filter((question) => question.category === 'iconic-movies')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
+      case 'legendary-actors':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'legendary-actors')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
+      case 'bollywood-music':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'bollywood-music')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
+      case 'romantic-movies':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'romantic-movies')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
+      case 'villains-of-bollywood':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'villains-of-bollywood')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
+      case 'comedy-films':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'comedy-films')
           .sort((a, b) => Math.random() - 0.5)
           .slice(0, settings.numQuestions);
         break;
@@ -40,7 +70,7 @@ export default function Quiz() {
       return [...prevUserAnswers, selectedAnswer];
     });
   },
-  []);
+    []);
 
   const handleSkipAnswer = useCallback(
     () => handleSelectAnswer(null),
