@@ -64,30 +64,30 @@ export default function Quiz() {
           .sort((a, b) => Math.random() - 0.5)
           .slice(0, settings.numQuestions);
         break;
-        case 'memorable-dialogues':
+      case 'memorable-dialogues':
         selectedQuestions = questionsData
           .filter((question) => question.category === 'memorable-dialogues')
           .sort((a, b) => Math.random() - 0.5)
           .slice(0, settings.numQuestions);
         break;
-        case 'bollywood-debuts':
-          selectedQuestions = questionsData
-            .filter((question) => question.category === 'bollywood-debuts')
-            .sort((a, b) => Math.random() - 0.5)
-            .slice(0, settings.numQuestions);
-          break;
-          case 'dance-numbers':
-          selectedQuestions = questionsData
-            .filter((question) => question.category === 'dance-numbers')
-            .sort((a, b) => Math.random() - 0.5)
-            .slice(0, settings.numQuestions);
-          break;
-          case 'bollywood-biographies':
-          selectedQuestions = questionsData
-            .filter((question) => question.category === 'bollywood-biographies')
-            .sort((a, b) => Math.random() - 0.5)
-            .slice(0, settings.numQuestions);
-          break;
+      case 'bollywood-debuts':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'bollywood-debuts')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
+      case 'dance-numbers':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'dance-numbers')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
+      case 'bollywood-biographies':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'bollywood-biographies')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
       default:
         selectedQuestions = [];
         break;
