@@ -699,5 +699,75 @@ export default [
     "correctAnswer": "Heropanti",
     "wrongAnswers": ["Baaghi", "War", "Student of the Year 2", "Munna Michael"],
     "category": "bollywood-debuts"
+  },
+  {
+    "id": "1301",
+    "text": "Which movie features the iconic dance number 'Chaiyya Chaiyya'?",
+    "correctAnswer": "Dil Se",
+    "wrongAnswers": ["Bombay", "Roja", "Guru", "Rang De Basanti"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1302",
+    "text": "In which movie does the song 'Ghagra' feature Madhuri Dixit and Ranbir Kapoor?",
+    "correctAnswer": "Yeh Jawaani Hai Deewani",
+    "wrongAnswers": ["Barfi", "Tamasha", "Rockstar", "Wake Up Sid"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1303",
+    "text": "Which movie features the dance number 'Dhoom Machale'?",
+    "correctAnswer": "Dhoom",
+    "wrongAnswers": ["Dhoom 2", "Dhoom 3", "Bang Bang", "War"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1304",
+    "text": "In which movie does the song 'Kajra Re' feature Aishwarya Rai, Abhishek Bachchan, and Amitabh Bachchan?",
+    "correctAnswer": "Bunty Aur Babli",
+    "wrongAnswers": ["Sarkar", "Kabhi Alvida Naa Kehna", "Dhoom 2", "Guru"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1305",
+    "text": "Which movie features the dance number 'Sheila Ki Jawani'?",
+    "correctAnswer": "Tees Maar Khan",
+    "wrongAnswers": ["Dhoom 3", "Bang Bang", "War", "Zindagi Na Milegi Dobara"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1306",
+    "text": "In which movie does the song 'Munni Badnaam Hui' feature Malaika Arora?",
+    "correctAnswer": "Dabangg",
+    "wrongAnswers": ["Dabangg 2", "Wanted", "Kick", "Sultan"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1307",
+    "text": "Which movie features the dance number 'Desi Girl'?",
+    "correctAnswer": "Dostana",
+    "wrongAnswers": ["Kabhi Alvida Naa Kehna", "Kal Ho Naa Ho", "Kabhi Khushi Kabhie Gham", "Student of the Year"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1308",
+    "text": "In which movie does the song 'Badtameez Dil' feature Ranbir Kapoor and Deepika Padukone?",
+    "correctAnswer": "Yeh Jawaani Hai Deewani",
+    "wrongAnswers": ["Tamasha", "Barfi", "Rockstar", "Wake Up Sid"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1309",
+    "text": "Which movie features the dance number 'Kamli'?",
+    "correctAnswer": "Dhoom 3",
+    "wrongAnswers": ["Dhoom 2", "Bang Bang", "War", "Zindagi Na Milegi Dobara"],
+    "category": "dance-numbers"
+  },
+  {
+    "id": "1310",
+    "text": "In which movie does the song 'Radha' feature Alia Bhatt, Varun Dhawan, and Sidharth Malhotra?",
+    "correctAnswer": "Student of the Year",
+    "wrongAnswers": ["Student of the Year 2", "Kalank", "Humpty Sharma Ki Dulhania", "Badrinath Ki Dulhania"],
+    "category": "dance-numbers"
   }
 ]

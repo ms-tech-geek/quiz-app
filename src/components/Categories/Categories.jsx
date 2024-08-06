@@ -58,6 +58,11 @@ const Categories = () => {
             <h3>Bollywood Debuts</h3>
           </div>
         </Link>
+        <Link to="/quiz?category=dance-numbers" className="category-item">
+          <div className="category-content">
+            <h3>Dance Numbers</h3>
+          </div>
+        </Link>
       </div>
     </div>
   );
