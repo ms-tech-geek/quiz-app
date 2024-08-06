@@ -558,5 +558,76 @@ export default [
     "correctAnswer": "Abhishek Kapoor",
     "wrongAnswers": ["Farhan Akhtar", "Zoya Akhtar", "Karan Johar", "Rohit Shetty"],
     "category": "film-directors"
+  },
+
+  {
+    "id": "1101",
+    "text": "Which movie features the dialogue 'Kitne aadmi the?'",
+    "correctAnswer": "Sholay",
+    "wrongAnswers": ["Deewar", "Don", "Zanjeer", "Kaalia"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1102",
+    "text": "In which movie does the character say 'Mogambo khush hua'?",
+    "correctAnswer": "Mr. India",
+    "wrongAnswers": ["Sholay", "Don", "Deewar", "Kaalia"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1103",
+    "text": "Which movie features the dialogue 'Mere paas maa hai'?",
+    "correctAnswer": "Deewar",
+    "wrongAnswers": ["Sholay", "Don", "Zanjeer", "Kaalia"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1104",
+    "text": "In which movie does the character say 'Bade bade deshon mein aisi chhoti chhoti baatein hoti rehti hain'?",
+    "correctAnswer": "Dilwale Dulhania Le Jayenge",
+    "wrongAnswers": ["Kuch Kuch Hota Hai", "Mohabbatein", "Kabhi Khushi Kabhie Gham", "Veer-Zaara"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1105",
+    "text": "Which movie features the dialogue 'Mogambo khush hua'?",
+    "correctAnswer": "Mr. India",
+    "wrongAnswers": ["Sholay", "Don", "Deewar", "Kaalia"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1106",
+    "text": "In which movie does the character say 'Basanti, in kutto ke samne mat nachna'?",
+    "correctAnswer": "Sholay",
+    "wrongAnswers": ["Deewar", "Don", "Zanjeer", "Kaalia"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1107",
+    "text": "Which movie features the dialogue 'Rishte mein toh hum tumhare baap lagte hain, naam hai Shahenshah'?",
+    "correctAnswer": "Shahenshah",
+    "wrongAnswers": ["Sholay", "Don", "Deewar", "Kaalia"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1108",
+    "text": "In which movie does the character say 'Pyar dosti hai'?",
+    "correctAnswer": "Kuch Kuch Hota Hai",
+    "wrongAnswers": ["Dilwale Dulhania Le Jayenge", "Veer-Zaara", "Mohabbatein", "Kabhi Khushi Kabhie Gham"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1109",
+    "text": "Which movie features the dialogue 'Tension lene ka nahi, sirf dene ka'?",
+    "correctAnswer": "Munna Bhai M.B.B.S.",
+    "wrongAnswers": ["Lage Raho Munna Bhai", "Dhamaal", "Golmaal", "Welcome"],
+    "category": "memorable-dialogues"
+  },
+  {
+    "id": "1110",
+    "text": "In which movie does the character say 'Aaj khush to bahut hoge tum'?",
+    "correctAnswer": "Deewar",
+    "wrongAnswers": ["Sholay", "Don", "Zanjeer", "Kaalia"],
+    "category": "memorable-dialogues"
   }
 ]

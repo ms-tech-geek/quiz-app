@@ -48,6 +48,11 @@ const Categories = () => {
             <h3>Film Directors</h3>
           </div>
         </Link>
+        <Link to="/quiz?category=memorable-dialogues" className="category-item">
+          <div className="category-content">
+            <h3>Memorable Dialogues</h3>
+          </div>
+        </Link>
       </div>
     </div>
   );
