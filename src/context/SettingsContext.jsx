@@ -5,10 +5,10 @@ export const SettingsContext = createContext();
 
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState({
-    sound: true,
-    timer: true,
+    sound: false,
+    timer: false,
     timerDuration: 10,
-    numQuestions: 10,
+    numQuestions: 5,
   });
 
   const updateSettings = (newSettings) => {
