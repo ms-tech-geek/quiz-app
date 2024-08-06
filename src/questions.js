@@ -629,5 +629,75 @@ export default [
     "correctAnswer": "Deewar",
     "wrongAnswers": ["Sholay", "Don", "Zanjeer", "Kaalia"],
     "category": "memorable-dialogues"
+  },
+  {
+    "id": "1201",
+    "text": "In which movie did Shah Rukh Khan make his Bollywood debut?",
+    "correctAnswer": "Deewana",
+    "wrongAnswers": ["Baazigar", "Darr", "Raju Ban Gaya Gentleman", "Chamatkar"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1202",
+    "text": "Which movie marked the debut of Hrithik Roshan?",
+    "correctAnswer": "Kaho Naa... Pyaar Hai",
+    "wrongAnswers": ["Fiza", "Kabhi Khushi Kabhie Gham", "Mission Kashmir", "Lakshya"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1203",
+    "text": "In which movie did Deepika Padukone make her Bollywood debut?",
+    "correctAnswer": "Om Shanti Om",
+    "wrongAnswers": ["Chennai Express", "Love Aaj Kal", "Cocktail", "Bajirao Mastani"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1204",
+    "text": "Which movie marked the debut of Aishwarya Rai Bachchan?",
+    "correctAnswer": "Aur Pyaar Ho Gaya",
+    "wrongAnswers": ["Hum Dil De Chuke Sanam", "Devdas", "Jeans", "Taal"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1205",
+    "text": "In which movie did Ranveer Singh make his Bollywood debut?",
+    "correctAnswer": "Band Baaja Baaraat",
+    "wrongAnswers": ["Gunday", "Ram-Leela", "Bajirao Mastani", "Dil Dhadakne Do"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1206",
+    "text": "Which movie marked the debut of Anushka Sharma?",
+    "correctAnswer": "Rab Ne Bana Di Jodi",
+    "wrongAnswers": ["Band Baaja Baaraat", "PK", "Sultan", "Ae Dil Hai Mushkil"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1207",
+    "text": "In which movie did Alia Bhatt make her Bollywood debut?",
+    "correctAnswer": "Student of the Year",
+    "wrongAnswers": ["Highway", "Raazi", "Gully Boy", "Udta Punjab"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1208",
+    "text": "Which movie marked the debut of Kareena Kapoor Khan?",
+    "correctAnswer": "Refugee",
+    "wrongAnswers": ["Kabhi Khushi Kabhie Gham", "Mujhe Kucch Kehna Hai", "Asoka", "Chameli"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1209",
+    "text": "In which movie did Priyanka Chopra make her Bollywood debut?",
+    "correctAnswer": "The Hero: Love Story of a Spy",
+    "wrongAnswers": ["Andaaz", "Mujhse Shaadi Karogi", "Aitraaz", "Fashion"],
+    "category": "bollywood-debuts"
+  },
+  {
+    "id": "1210",
+    "text": "Which movie marked the debut of Tiger Shroff?",
+    "correctAnswer": "Heropanti",
+    "wrongAnswers": ["Baaghi", "War", "Student of the Year 2", "Munna Michael"],
+    "category": "bollywood-debuts"
   }
 ]

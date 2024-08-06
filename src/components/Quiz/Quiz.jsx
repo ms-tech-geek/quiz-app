@@ -70,6 +70,12 @@ export default function Quiz() {
           .sort((a, b) => Math.random() - 0.5)
           .slice(0, settings.numQuestions);
         break;
+        case 'bollywood-debuts':
+          selectedQuestions = questionsData
+            .filter((question) => question.category === 'bollywood-debuts')
+            .sort((a, b) => Math.random() - 0.5)
+            .slice(0, settings.numQuestions);
+          break;
       default:
         selectedQuestions = [];
         break;
