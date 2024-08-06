@@ -488,5 +488,75 @@ export default [
     "correctAnswer": "Bang Bang",
     "wrongAnswers": ["War", "Krrish", "Kaabil", "Lakshya"],
     "category": "action-heroes"
+  },
+  {
+    "id": "801",
+    "text": "Which director is known for the 'Dhoom' series?",
+    "correctAnswer": "Sanjay Gadhvi",
+    "wrongAnswers": ["Karan Johar", "Aditya Chopra", "Rohit Shetty", "Farhan Akhtar"],
+    "category": "film-directors"
+  },
+  {
+    "id": "802",
+    "text": "Who directed the movie '3 Idiots'?",
+    "correctAnswer": "Rajkumar Hirani",
+    "wrongAnswers": ["Vidhu Vinod Chopra", "Karan Johar", "Farhan Akhtar", "Anurag Kashyap"],
+    "category": "film-directors"
+  },
+  {
+    "id": "803",
+    "text": "Which director is known for the movie 'Dilwale Dulhania Le Jayenge'?",
+    "correctAnswer": "Aditya Chopra",
+    "wrongAnswers": ["Yash Chopra", "Karan Johar", "Rajkumar Hirani", "Rohit Shetty"],
+    "category": "film-directors"
+  },
+  {
+    "id": "804",
+    "text": "Who directed the movie 'Kabhi Khushi Kabhie Gham'?",
+    "correctAnswer": "Karan Johar",
+    "wrongAnswers": ["Aditya Chopra", "Yash Chopra", "Rajkumar Hirani", "Rohit Shetty"],
+    "category": "film-directors"
+  },
+  {
+    "id": "805",
+    "text": "Which director is known for the 'Golmaal' series?",
+    "correctAnswer": "Rohit Shetty",
+    "wrongAnswers": ["Karan Johar", "Aditya Chopra", "Rajkumar Hirani", "Farhan Akhtar"],
+    "category": "film-directors"
+  },
+  {
+    "id": "806",
+    "text": "Who directed the movie 'Zindagi Na Milegi Dobara'?",
+    "correctAnswer": "Zoya Akhtar",
+    "wrongAnswers": ["Farhan Akhtar", "Karan Johar", "Rohit Shetty", "Anurag Kashyap"],
+    "category": "film-directors"
+  },
+  {
+    "id": "807",
+    "text": "Which director is known for the movie 'Gully Boy'?",
+    "correctAnswer": "Zoya Akhtar",
+    "wrongAnswers": ["Farhan Akhtar", "Anurag Kashyap", "Rohit Shetty", "Rajkumar Hirani"],
+    "category": "film-directors"
+  },
+  {
+    "id": "808",
+    "text": "Who directed the movie 'Bajrangi Bhaijaan'?",
+    "correctAnswer": "Kabir Khan",
+    "wrongAnswers": ["Karan Johar", "Rohit Shetty", "Rajkumar Hirani", "Farhan Akhtar"],
+    "category": "film-directors"
+  },
+  {
+    "id": "809",
+    "text": "Which director is known for the movie 'Devdas'?",
+    "correctAnswer": "Sanjay Leela Bhansali",
+    "wrongAnswers": ["Karan Johar", "Aditya Chopra", "Rajkumar Hirani", "Rohit Shetty"],
+    "category": "film-directors"
+  },
+  {
+    "id": "810",
+    "text": "Who directed the movie 'Rock On!!'?",
+    "correctAnswer": "Abhishek Kapoor",
+    "wrongAnswers": ["Farhan Akhtar", "Zoya Akhtar", "Karan Johar", "Rohit Shetty"],
+    "category": "film-directors"
   }
 ]

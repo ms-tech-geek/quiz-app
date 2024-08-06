@@ -43,6 +43,11 @@ const Categories = () => {
             <h3>Actions Heroes</h3>
           </div>
         </Link>
+        <Link to="/quiz?category=film-directors" className="category-item">
+          <div className="category-content">
+            <h3>Film Directors</h3>
+          </div>
+        </Link>
       </div>
     </div>
   );

@@ -58,6 +58,12 @@ export default function Quiz() {
           .sort((a, b) => Math.random() - 0.5)
           .slice(0, settings.numQuestions);
         break;
+      case 'film-directors':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'film-directors')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
       default:
         selectedQuestions = [];
         break;
