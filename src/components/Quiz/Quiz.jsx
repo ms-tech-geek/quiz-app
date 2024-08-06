@@ -52,6 +52,12 @@ export default function Quiz() {
           .sort((a, b) => Math.random() - 0.5)
           .slice(0, settings.numQuestions);
         break;
+      case 'action-heroes':
+        selectedQuestions = questionsData
+          .filter((question) => question.category === 'action-heroes')
+          .sort((a, b) => Math.random() - 0.5)
+          .slice(0, settings.numQuestions);
+        break;
       default:
         selectedQuestions = [];
         break;

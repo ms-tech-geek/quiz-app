@@ -418,5 +418,75 @@ export default [
     "correctAnswer": "Taare Zameen Par",
     "wrongAnswers": ["Bhool Bhulaiyaa", "Golmaal", "Hera Pheri", "Dhamaal"],
     "category": "comedy-films"
+  },
+  {
+    "id": "701",
+    "text": "Which movie features Salman Khan as the fearless 'Chulbul Pandey'?",
+    "correctAnswer": "Dabangg",
+    "wrongAnswers": ["Wanted", "Kick", "Sultan", "Ek Tha Tiger"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "702",
+    "text": "In which movie does the character Singham appear?",
+    "correctAnswer": "Singham",
+    "wrongAnswers": ["Simmba", "Sooryavanshi", "Dabangg", "Rowdy Rathore"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "703",
+    "text": "Which movie features the character Tiger?",
+    "correctAnswer": "Ek Tha Tiger",
+    "wrongAnswers": ["Tiger Zinda Hai", "Dabangg", "Kick", "Sultan"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "704",
+    "text": "In which movie does the character Bajirao Singham appear?",
+    "correctAnswer": "Singham",
+    "wrongAnswers": ["Simmba", "Sooryavanshi", "Dabangg", "Rowdy Rathore"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "705",
+    "text": "Which movie features Akshay Kumar as a martial artist?",
+    "correctAnswer": "Khiladi",
+    "wrongAnswers": ["Rowdy Rathore", "Holiday", "Gabbar Is Back", "Airlift"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "706",
+    "text": "In which movie does the character Veer Sooryavanshi appear?",
+    "correctAnswer": "Sooryavanshi",
+    "wrongAnswers": ["Singham", "Simmba", "Dabangg", "Rowdy Rathore"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "707",
+    "text": "Which movie features Hrithik Roshan as an army officer?",
+    "correctAnswer": "Lakshya",
+    "wrongAnswers": ["Krrish", "Bang Bang", "War", "Kaabil"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "708",
+    "text": "In which movie does the character Karan Shergill appear?",
+    "correctAnswer": "Lakshya",
+    "wrongAnswers": ["Krrish", "Bang Bang", "War", "Kaabil"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "709",
+    "text": "Which movie features Ajay Devgn as a fearless cop?",
+    "correctAnswer": "Singham",
+    "wrongAnswers": ["Simmba", "Sooryavanshi", "Dabangg", "Rowdy Rathore"],
+    "category": "action-heroes"
+  },
+  {
+    "id": "710",
+    "text": "In which movie does the character Rajveer Nanda appear?",
+    "correctAnswer": "Bang Bang",
+    "wrongAnswers": ["War", "Krrish", "Kaabil", "Lakshya"],
+    "category": "action-heroes"
   }
 ]
