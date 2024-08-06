@@ -769,5 +769,75 @@ export default [
     "correctAnswer": "Student of the Year",
     "wrongAnswers": ["Student of the Year 2", "Kalank", "Humpty Sharma Ki Dulhania", "Badrinath Ki Dulhania"],
     "category": "dance-numbers"
+  },
+  {
+    "id": "1401",
+    "text": "Which movie is based on the life of athlete Milkha Singh?",
+    "correctAnswer": "Bhaag Milkha Bhaag",
+    "wrongAnswers": ["Mary Kom", "Dangal", "Paan Singh Tomar", "Chak De! India"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1402",
+    "text": "In which movie does Priyanka Chopra portray boxer Mary Kom?",
+    "correctAnswer": "Mary Kom",
+    "wrongAnswers": ["Dangal", "Sultan", "Mukkabaaz", "Panga"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1403",
+    "text": "Which movie is based on the life of mathematician Anand Kumar?",
+    "correctAnswer": "Super 30",
+    "wrongAnswers": ["Hichki", "Taare Zameen Par", "Chhichhore", "Nil Battey Sannata"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1404",
+    "text": "In which movie does Aamir Khan portray wrestler Mahavir Singh Phogat?",
+    "correctAnswer": "Dangal",
+    "wrongAnswers": ["Sultan", "Mukkabaaz", "Panga", "Toofan"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1405",
+    "text": "Which movie is based on the life of Bollywood actor Sanjay Dutt?",
+    "correctAnswer": "Sanju",
+    "wrongAnswers": ["Dutt", "Munna Bhai M.B.B.S.", "Vaastav", "Khalnayak"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1406",
+    "text": "In which movie does the character Paan Singh Tomar appear?",
+    "correctAnswer": "Paan Singh Tomar",
+    "wrongAnswers": ["Bhaag Milkha Bhaag", "Mary Kom", "Chak De! India", "Dangal"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1407",
+    "text": "Which movie is based on the life of social activist Arunachalam Muruganantham?",
+    "correctAnswer": "Pad Man",
+    "wrongAnswers": ["Toilet: Ek Prem Katha", "Hindi Medium", "Badhaai Ho", "Shubh Mangal Saavdhan"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1408",
+    "text": "In which movie does Akshay Kumar portray naval officer Rustom Pavri?",
+    "correctAnswer": "Rustom",
+    "wrongAnswers": ["Airlift", "Kesari", "Gold", "Toilet: Ek Prem Katha"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1409",
+    "text": "Which movie is based on the life of actress Silk Smitha?",
+    "correctAnswer": "The Dirty Picture",
+    "wrongAnswers": ["Fashion", "Heroine", "Raaz", "Tum Mile"],
+    "category": "bollywood-biographies"
+  },
+  {
+    "id": "1410",
+    "text": "In which movie does the character Milkha Singh appear?",
+    "correctAnswer": "Bhaag Milkha Bhaag",
+    "wrongAnswers": ["Mary Kom", "Dangal", "Paan Singh Tomar", "Chak De! India"],
+    "category": "bollywood-biographies"
   }
 ]
