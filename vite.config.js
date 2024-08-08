@@ -47,6 +47,44 @@ export default defineConfig({
             type: 'image/jpeg',
           },
         ],
+        screenshots: [
+          {
+            src: 'screens/wide-screen-1.png',
+            sizes: '640x480',
+            type: 'image/png',
+            form_factor: 'wide',
+          },
+          {
+            src: 'screens/wide-screen-2.png',
+            sizes: '640x480',
+            type: 'image/png',
+            form_factor: 'wide',
+          },
+          {
+            src: 'screens/wide-screen-3.png',
+            sizes: '640x480',
+            type: 'image/png',
+            form_factor: 'wide',
+          },
+          {
+            src: 'screens/narrow-screen-1.png',
+            sizes: '320x480',
+            type: 'image/png',
+            form_factor: 'narrow',
+          },
+          {
+            src: 'screens/narrow-screen-2.png',
+            sizes: '320x480',
+            type: 'image/png',
+            form_factor: 'narrow',
+          },
+          {
+            src: 'screens/narrow-screen-3.png',
+            sizes: '320x480',
+            type: 'image/png',
+            form_factor: 'narrow',
+          }
+        ],
         start_url: '.',
         display: 'standalone',
         theme_color: '#000000',
